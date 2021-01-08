@@ -5,4 +5,4 @@ c++ stl and dsa from geeks for geeks<br>
 python from geeks for geeks<br>
 linux batch from geeks for geeks<br>
 practice from Hacker rank and Hacker earth<br>
-only cpp
+stl and rachit jain videos<br>
