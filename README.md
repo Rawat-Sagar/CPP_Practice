@@ -28,8 +28,32 @@ Enter the Position to be insert :<br>
 Printing the elements of array :<br>
 1 11 2 3 4 5 <br>
 file:- https://github.com/Rawat-Sagar/CPP_Practice/blob/main/array_insert2.cpp<br>
-1 2 3 4 5 6 7 8 9 10 <br>
+Answer :1 2 3 4 5 6 7 8 9 10 <br>
 1 2 3 4 50 5 6 7 8 9 10 <br>
+file:-https://github.com/Rawat-Sagar/CPP_Practice/blob/main/array_deletion_beg_specific_end.cpp<br>
+Answer For beginning:<br>
+Hello world! <br>
+Enter the size of array : <br>
+5 <br>
+Enter elements of array : <br>
+10 <br>
+20 <br>
+30 <br>
+40 <br>
+50 <br>
+Printing the elements of array :<br>
+10 20 30 40 50 <br>
+ Do you want to delete the element at a specific position :<br>
+y<br>
+Enter the Number to be deleted :<br>
+10<br>
+Enter the Position :<br>
+1<br>
+Printing the elements of array :<br>
+20 30 40 <br>
+
+
+
 
 
 
