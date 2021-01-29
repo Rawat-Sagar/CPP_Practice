@@ -27,4 +27,9 @@ Enter the Position to be insert :<br>
 2<br>
 Printing the elements of array :<br>
 1 11 2 3 4 5 <br>
+file:-
+1 2 3 4 5 6 7 8 9 10 <br>
+1 2 3 4 50 5 6 7 8 9 10 <br>
+
+
 
