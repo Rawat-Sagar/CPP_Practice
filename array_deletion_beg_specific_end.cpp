@@ -28,6 +28,7 @@ int main() {
         if(pos<=0||pos>size++){
             cout<<"Invalid Position given"<<endl;
         }
+//         For Beginning Position
         else if(pos==1){
             for(int i=0; i<size;i++){
                 a[i]=a[i+1];
@@ -35,13 +36,13 @@ int main() {
             }
             size--;
         }
-        
+//         For End Position
         else if(pos==pos-1){
             for(int i=pos-1; i<size;i++){
             }
             size--;
         }
-        
+//         At Specific Position
         else{
             for(int i=pos-1; i<size;i++){
                     a[i]=a[i+1];
