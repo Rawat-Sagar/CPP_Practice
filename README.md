@@ -52,6 +52,25 @@ Enter the Position :<br>
 Printing the elements of array :<br>
 20 30 40 <br>
 
+For End Position :<br>
+Hello world!<br>
+Enter the size of array :<br>
+3<br>
+Enter elements of array :<br>
+1<br>
+23<br>
+3<br>
+Printing the elements of array :<br>
+1 23 3 <br>
+ Do you want to delete the element at a specific position :<br>
+y<br>
+Enter the Number to be deleted :<br>
+3<br>
+Enter the Position :<br>
+3<br>
+Printing the elements of array :<br>
+1 23 <br>
+
 
 
 
