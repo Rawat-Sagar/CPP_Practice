@@ -9,14 +9,13 @@ public:
 };
  
 //This function insert in start of linked list
-/* Given a reference (pointer to pointer) to the head 
-   of a list and an int, appends a new node at the end  */
-void InsertatBeg(Node** head_ref,int x)
+
+void InsertatBeg(Node*  &head_ref,int x)
 {
     Node* temp = new Node();
     temp->data = x;
-    temp->next = *head_ref;
-    *head_ref = temp;
+    temp->next = head_ref;
+    head_ref = temp;
 }
 
 
@@ -40,7 +39,7 @@ void insertAfter(Node* prev_node,int new_data)
 
 // Given a reference (pointer to pointer) to the head   
 // of a list and an int, appends a new node at the end  
-void append(Node** head_ref, int new_data)   
+void append(Node*  &head_ref, int new_data)   
 {   
     
     // 1. allocate node  
@@ -55,13 +54,13 @@ void append(Node** head_ref, int new_data)
     new_node->next = NULL; 
     
     // Used in step 5  
-    Node *last = *head_ref;  
+    Node *last = head_ref;  
     
     // 4. If the Linked List is empty,  
     // then make the new node as head  
-    if (*head_ref == NULL)   
+    if (head_ref == NULL)   
     {   
-        *head_ref = new_node;   
+        head_ref = new_node;   
         return;   
     }   
     
@@ -109,7 +108,7 @@ int main()
     cout<<"Before Insertion at the front of linked list"<<endl;
     printList(head); 
     
-    InsertatBeg(&head,10);
+    InsertatBeg(head,10);
     cout<<endl;
     
     cout<<"After Insertion at the front of linked list"<<endl;
@@ -122,7 +121,7 @@ int main()
     cout<<"After Insertion at the given node of linked list"<<endl;
     printList(head);
     
-    append(&head, 6); 
+    append(head, 6); 
     cout<<endl;
     
     cout<<"After Insertion at the end of linked list"<<endl;
