@@ -16,7 +16,7 @@ void print(set<string> &s)
 
 int main()
 {
-    // Sorted Order and unique element ko store krta hai.
+    // Sorted Order and unique element ko store krta hai ,use hash table,cannot use pair,vector,set .
     set<string> s;
     s.insert("abc"); //log(n)
     s.insert("zsf");
